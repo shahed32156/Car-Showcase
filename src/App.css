@@ -1,0 +1,90 @@
+html {
+
+  scroll-behavior: smooth;
+}
+
+body {
+  background:black;
+}
+
+
+.navbar {
+
+  backdrop-filter:blur(30px);
+}
+
+
+/* Carusel start */
+
+.box-shadow:hover {
+
+  box-shadow: 0 4px 10px #12eb69, /* Bottom shadow */
+              0 -4px 10px #12eb69, /* Top shadow */
+              4px 0 10px #12eb69, /* Right shadow */
+              -4px 0 10px #12eb69; /* Left shadow */
+}
+
+
+
+/* Carusel end */
+
+
+/* Services start */
+
+.service-card:hover img  {
+
+    transform:scale(1.1);
+
+}
+
+.service-card:hover .service-intro  {
+
+    bottom:0px;
+
+}
+
+
+
+
+
+
+/* Services end */
+
+
+
+/* About start */
+
+
+.about-img-div:hover .about-img {
+
+
+   transform:scale(1.1);
+
+
+}
+
+
+/* About end */
+
+
+/* Royal cars start */
+
+.royal-cars-div:hover .details {
+
+
+  filter:grayscale(0);
+
+
+}
+
+
+
+/* Royal cars end */
+
+
+.blog-part:hover img {
+
+
+  transform:scale(1.1);
+
+}
