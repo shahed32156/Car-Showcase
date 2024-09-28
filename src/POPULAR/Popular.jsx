@@ -65,7 +65,7 @@ const Popular = () => {
 
   return (
     <>
-      <div className='flex justify-center text-3xl font-mono font-bold text-blue-500 mt-20'>
+      <div className='flex justify-center text-3xl font-mono font-bold text-blue-500 mt-20 mx-3'>
         <h1 className='md:w-[400px] text-center'>Choose Your Electric Car From Porsche Brand</h1>
       </div>
 
