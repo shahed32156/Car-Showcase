@@ -18,7 +18,11 @@ const Carousel = () => {
         className={`text-white flex flex-col justify-center items-center gap-4 mt-20 mx-3 transition-all duration-700 ${inView1 ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
       >
         <h1 className='text-3xl font-serif font-extrabold text-center'>Choose The Best Car</h1>
-        <p className='text-xl font-serif font-semibold text-center'>Choose The Best Car</p>
+        <p className='text-[18px] font-serif font-semibold text-center'>Porche Mission E</p>
+        <div className='flex items-center gap-1 -mt-3'>
+          <MdElectricBolt className='text-[17px] text-blue-600' />
+          <p>Electric Car</p>
+        </div>
         <div className='carousel-img-div'>
           <img className='h-[300px] md:mt-8 p-12 md:p-0 duration-500' src="./Images/carousel-car.png" alt="" />
         </div>
