@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import RingLoader from "react-spinners/RingLoader";
+import HashLoader from "react-spinners/HashLoader";
 import { FaArrowUp } from "react-icons/fa"; // Importing the up-arrow icon
 import Navbar from './NAVBAR/Navbar';
 import Carousel from './CAROUSEL/Carousel';
@@ -48,7 +48,7 @@ function App() {
     <>
       {isLoading ? (
         <div className='flex justify-center items-center h-[100vh]'>
-          <RingLoader color="#f34ee5" />
+          <HashLoader color="#4e6cf3" />
         </div>
       ) : (
         <div className=''>
