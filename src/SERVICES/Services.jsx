@@ -56,7 +56,7 @@ const ServiceCard = ({ service }) => {
     >
       <img className='duration-500 h-[300px] object-cover' src={service.image} alt={service.title} />
       <div
-        className={`p-3 flex flex-col gap-3 duration-500 service-intro absolute -bottom-14 lg:-bottom-20 bg-[#212121] transition-all ease-out ${
+        className={`p-3 flex flex-col gap-3 duration-500 service-intro absolute -bottom-[60px] lg:-bottom-20 bg-[#212121] transition-all ease-out ${
           inView ? 'bottom-0 opacity-100' : 'bottom-[-20px] opacity-0'
         }`}
       >
